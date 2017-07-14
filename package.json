@@ -1,0 +1,29 @@
+{
+  "name": "params-url",
+  "version": "1.0.1",
+  "description": "Serialize params from object to URL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "get",
+    "request",
+    "post",
+    "params"
+  ],
+  "author": "Mikhail Semin",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bifot/params-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bifot/params-url/issues"
+  },
+  "homepage": "https://github.com/bifot/params-url#readme"
+}
