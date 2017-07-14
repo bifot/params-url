@@ -1,6 +1,6 @@
 {
   "name": "params-url",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Serialize params from object to URL.",
   "main": "index.js",
   "scripts": {

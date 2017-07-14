@@ -21,7 +21,7 @@ Minified and polyfied script in the `lib` folder.
 Also you can add the latest version of script by CDN:
 
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/params-url@latest/lib/urlParams.build.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/params-url@1.0.4/lib/urlParams.build.min.js"></script>
 ```
 
 ## Usage
