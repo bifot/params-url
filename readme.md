@@ -15,7 +15,13 @@ $ npm i params-url
 Minified and polyfied script in the `lib` folder.
 
 ```sh
-<script src="/path/to/urlParams.build.min.js">
+<script src="/path/to/urlParams.build.min.js"></script>
+```
+
+Also you can add the latest version of script by CDN:
+
+```sh
+<script src="https://cdn.jsdelivr.net/npm/params-url@latest/lib/urlParams.build.min.js"></script>
 ```
 
 ## Usage
