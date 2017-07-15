@@ -1,1 +1,1 @@
-module.exports = require('./lib/urlParams')
+module.exports = require('./lib')
