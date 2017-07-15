@@ -1,13 +1,26 @@
+[![params-url](https://img.shields.io/npm/v/params-url.svg?style=flat-square)](https://www.npmjs.com/package/params-url/)
+[![params-url](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
+
 # Params Url
 
 Serialize params from object to URL.
 
 ## Install
 
-**npm:**
+```sh
+$ npm i params-url
+```
+
+or use CDN:
 
 ```sh
-$ npm i params-url && npm test
+<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.1/build/urlparams.build.js"></script>
+```
+
+## Test
+
+```sh
+$ npm test
 ```
 
 ## Usage
