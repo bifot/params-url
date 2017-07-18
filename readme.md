@@ -14,7 +14,7 @@ $ npm i params-url
 or use CDN:
 
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.2/build/urlparams.build.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.3/build/urlparams.build.js"></script>
 ```
 
 ## Test
@@ -87,11 +87,12 @@ Returns a url with parameters.
 const url = urlParams.generate('https://api.com/', {
   foo: 'bar',
   q: 'example with spaces',
+  arr: [ 1, 2, 3 ],
   v: 2
 })
 
 console.log(url)
-// => https://api.com?foo=bar&q=example%20with%20spaces&v=2
+// => https://api.com?foo=bar&q=example%20with%20spaces&arr=1&arr=2&arr=3&v=2
 ```
 
 ### .parse (url)
