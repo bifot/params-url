@@ -14,7 +14,7 @@ $ npm i params-url
 or use CDN:
 
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.1/build/urlparams.build.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.2/build/urlparams.build.js"></script>
 ```
 
 ## Test
