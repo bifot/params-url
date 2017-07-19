@@ -1,8 +1,8 @@
 const urlParams = require('../lib')
 
-const url = urlParams.delete('https://api.com?foo=bar&q=example&v=2', [
-  'foo',
-  'example'
+const url = urlParams.delete('https://api.com?q=dogs&act=find&type=good&type=beautiful', [
+  'q',
+  'type'
 ])
 
 console.log(url)

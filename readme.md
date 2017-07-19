@@ -14,7 +14,7 @@ $ npm i params-url
 or use CDN:
 
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.3/build/urlparams.build.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/params-url@1.1.4/build/urlparams.build.js"></script>
 ```
 
 ## Test
@@ -46,8 +46,9 @@ const urlParams = require('params-url')
 Returns a new url with new parameters.
 
 ```javascript
-const url = urlParams.add('https://api.com?q=test', {
-  act: 'create',
+const url = urlParams.add('https://api.com?q=dogs', {
+  act: 'find',
+  type: [ 'good', 'beautiful' ],
   v: 2
 })
 
@@ -65,9 +66,9 @@ Returns a new url without the specified parameters.
 | params     | array     | yes       |
 
 ```javascript
-const url = urlParams.delete('https://api.com?foo=bar&q=example&v=2', [
-  'foo',
-  'example'
+const url = urlParams.delete('https://api.com?q=dogs&act=find&type=good&type=beautiful', [
+  'q',
+  'type'
 ])
 
 console.log(url)
@@ -85,9 +86,9 @@ Returns a url with parameters.
 
 ```javascript
 const url = urlParams.generate('https://api.com/', {
-  foo: 'bar',
-  q: 'example with spaces',
-  arr: [ 1, 2, 3 ],
+  q: 'dogs',
+  act: 'find',
+  type: [ 'good', 'beautiful', 'husky' ],
   v: 2
 })
 
@@ -104,12 +105,13 @@ console.log(url)
 Returns object of parameters.
 
 ```javascript
-const url = urlParams.parse('https://api.com?foo=bar&q=example%20with%20spaces&v=2')
+const url = urlParams.parse('https://api.com?q=dogs&act=find&type=good&type=beautiful&type=husky&v=2')
 
 console.log(url)
 // {
-//   foo: 'bar',
-//   q: 'example with spaces',
+//   q: 'dogs',
+//   act: 'find',
+//   type: [ 'good', 'beautiful', 'husky' ],
 //   v: '2'
 // }
 ```

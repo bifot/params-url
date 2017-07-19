@@ -1,9 +1,9 @@
 const urlParams = require('../lib')
 
 const url = urlParams.generate('https://api.com/', {
-  foo: 'bar',
-  q: 'example with spaces',
-  arr: [ 1, 2, 3 ],
+  q: 'dogs',
+  act: 'find',
+  type: [ 'good', 'beautiful', 'husky' ],
   v: 2
 })
 
