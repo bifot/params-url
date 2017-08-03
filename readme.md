@@ -26,7 +26,7 @@ $ npm test
 ## Usage
 
 ```javascript
-const urlParams = require('params-url')
+const urlParams = require('params-url') 
 ```
 
 ## Methods
