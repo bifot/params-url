@@ -8,7 +8,7 @@ Serialize params from object to URL.
 ## Install
 
 ```sh
-$ npm i params-url
+$ npm i params-url -S
 ```
 
 or use CDN:
@@ -17,7 +17,7 @@ or use CDN:
 <script src="https://cdn.jsdelivr.net/npm/params-url@latest/build/urlparams.build.js"></script>
 ```
 
-## Test
+## Tests
 
 ```sh
 $ npm test
@@ -26,7 +26,7 @@ $ npm test
 ## Usage
 
 ```javascript
-const urlParams = require('params-url') 
+const urlParams = require('params-url')
 ```
 
 ## Methods
